@@ -27,7 +27,9 @@
           "name": { "type": "string" },
           "mime": { "type": "string" },
           "sha256": { "type": "string" },
-          "size": { "type": "integer" }
+          "size": { "type": "integer" },
+          "uri":    { "type": "string" },
+          "path":   { "type": "string" }    
         },
         "additionalProperties": false
       }
