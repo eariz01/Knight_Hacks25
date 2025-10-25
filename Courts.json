@@ -1,0 +1,489 @@
+{
+  "courts": [
+    {
+      "name": "Supreme Court of Florida",
+      "county": "Leon",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "U.S. District Court, Northern District of Florida",
+      "county": "Alachua, Bay, Calhoun, Dixie, Escambia, Franklin, Gadsden, Gilchrist, Gulf, Holmes, Jackson, Jefferson, Lafayette, Leon, Levy, Liberty, Madison, Okaloosa, Santa Rosa, Taylor, Wakulla, Walton, Washington",
+      "leaning": "Mixed (e.g., Leon: Liberal, Bay: Conservative)"
+    },
+    {
+      "name": "U.S. District Court, Middle District of Florida",
+      "county": "Baker, Bradford, Brevard, Charlotte, Citrus, Clay, Collier, Columbia, De Soto, Duval, Flagler, Glades, Hamilton, Hardee, Hendry, Hernando, Hillsborough, Lake, Lee, Manatee, Marion, Nassau, Orange, Osceola, Pasco, Pinellas, Polk, Putnam, St. Johns, Sarasota, Seminole, Sumter, Suwannee, Union, Volusia",
+      "leaning": "Mixed (e.g., Orange: Liberal, Polk: Conservative)"
+    },
+    {
+      "name": "U.S. District Court, Southern District of Florida",
+      "county": "Broward, Miami-Dade, Highlands, Indian River, Martin, Monroe, Okeechobee, Palm Beach, St. Lucie",
+      "leaning": "Mixed (e.g., Broward: Liberal, Miami-Dade: Conservative)"
+    },
+    {
+      "name": "First District Court of Appeal",
+      "county": "(Circuits 1, 2, 3, 8, 14)",
+      "leaning": "Mixed (e.g., Leon: Liberal, Escambia: Conservative)"
+    },
+    {
+      "name": "Second District Court of Appeal",
+      "county": "(Circuits 6, 12, 13)",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Third District Court of Appeal",
+      "county": "(Circuits 11, 16)",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Fourth District Court of Appeal",
+      "county": "(Circuits 15, 17, 19)",
+      "leaning": "Mixed (e.g., Broward: Liberal, St. Lucie: Conservative)"
+    },
+    {
+      "name": "Fifth District Court of Appeal",
+      "county": "(Circuits 4, 5, 7, 18)",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Sixth District Court of Appeal",
+      "county": "(Circuits 9, 10, 20)",
+      "leaning": "Mixed (e.g., Orange: Liberal, Polk: Conservative)"
+    },
+    {
+      "name": "First Judicial Circuit Court",
+      "county": "Escambia, Okaloosa, Santa Rosa, Walton",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Second Judicial Circuit Court",
+      "county": "Franklin, Gadsden, Jefferson, Leon, Liberty, Wakulla",
+      "leaning": "Mixed (e.g., Leon: Liberal, Gadsden: Liberal, Franklin: Conservative)"
+    },
+    {
+      "name": "Third Judicial Circuit Court",
+      "county": "Columbia, Dixie, Hamilton, Lafayette, Madison, Suwannee, Taylor",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Fourth Judicial Circuit Court",
+      "county": "Clay, Duval, Nassau",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Fifth Judicial Circuit Court",
+      "county": "Citrus, Hernando, Lake, Marion, Sumter",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Sixth Judicial Circuit Court",
+      "county": "Pasco, Pinellas",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Seventh Judicial Circuit Court",
+      "county": "Flagler, Putnam, St. Johns, Volusia",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Eighth Judicial Circuit Court",
+      "county": "Alachua, Baker, Bradford, Gilchrist, Levy, Union",
+      "leaning": "Mixed (Alachua: Liberal, Baker: Conservative)"
+    },
+    {
+      "name": "Ninth Judicial Circuit Court",
+      "county": "Orange, Osceola",
+      "leaning": "Mixed (Orange: Liberal, Osceola: Conservative)"
+    },
+    {
+      "name": "Tenth Judicial Circuit Court",
+      "county": "Hardee, Highlands, Polk",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Eleventh Judicial Circuit Court",
+      "county": "Miami-Dade",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Twelfth Judicial Circuit Court",
+      "county": "DeSoto, Manatee, Sarasota",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Thirteenth Judicial Circuit Court",
+      "county": "Hillsborough",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Fourteenth Judicial Circuit Court",
+      "county": "Bay, Calhoun, Gulf, Holmes, Jackson, Washington",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Fifteenth Judicial Circuit Court",
+      "county": "Palm Beach",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "Sixteenth Judicial Circuit Court",
+      "county": "Monroe",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Seventeenth Judicial Circuit Court",
+      "county": "Broward",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "Eighteenth Judicial Circuit Court",
+      "county": "Brevard, Seminole",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Nineteenth Judicial Circuit Court",
+      "county": "Indian River, Martin, Okeechobee, St. Lucie",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Twentieth Judicial Circuit Court",
+      "county": "Charlotte, Collier, Glades, Hendry, Lee",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Alachua County Court",
+      "county": "Alachua",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "Baker County Court",
+      "county": "Baker",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Bay County Court",
+      "county": "Bay",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Bradford County Court",
+      "county": "Bradford",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Brevard County Court",
+      "county": "Brevard",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Broward County Court",
+      "county": "Broward",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "Calhoun County Court",
+      "county": "Calhoun",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Charlotte County Court",
+      "county": "Charlotte",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Citrus County Court",
+      "county": "Citrus",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Clay County Court",
+      "county": "Clay",
+      "leaning":Good": "Conservative"
+    },
+    {
+      "name": "Collier County Court",
+      "county": "Collier",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Columbia County Court",
+      "county": "Columbia",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "DeSoto County Court",
+      "county": "DeSoto",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Dixie County Court",
+      "county": "Dixie",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Duval County Court",
+      "county": "Duval",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Escambia County Court",
+      "county": "Escambia",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Flagler County Court",
+      "county": "Flagler",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Franklin County Court",
+      "county": "Franklin",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Gadsden County Court",
+      "county": "Gadsden",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "Gilchrist County Court",
+      "county": "Gilchrist",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Glades County Court",
+      "county": "Glades",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Gulf County Court",
+      "county": "Gulf",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Hamilton County Court",
+      "county": "Hamilton",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Hardee County Court",
+      "county": "Hardee",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Hendry County Court",
+      "county": "Hendry",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Hernando County Court",
+      "county": "Hernando",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Highlands County Court",
+      "county": "Highlands",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Hillsborough County Court",
+      "county": "Hillsborough",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Holmes County Court",
+      "county": "Holmes",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Indian River County Court",
+      "county": "Indian River",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Jackson County Court",
+      "county": "Jackson",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Jefferson County Court",
+      "county": "Jefferson",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Lafayette County Court",
+      "county": "Lafayette",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Lake County Court",
+      "county": "Lake",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Lee County Court",
+      "county": "Lee",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Leon County Court",
+      "county": "Leon",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "Levy County Court",
+      "county": "Levy",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Liberty County Court",
+      "county": "Liberty",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Madison County Court",
+      "county": "Madison",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Manatee County Court",
+      "county": "Manatee",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Marion County Court",
+      "county": "Marion",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Martin County Court",
+      "county": "Martin",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Miami-Dade County Court",
+      "county": "Miami-Dade",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Monroe County Court",
+      "county": "Monroe",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Nassau County Court",
+      "county": "Nassau",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Okaloosa County Court",
+      "county": "Okaloosa",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Okeechobee County Court",
+      "county": "Okeechobee",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Orange County Court",
+      "county": "Orange",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "Osceola County Court",
+      "county": "Osceola",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Palm Beach County Court",
+      "county": "Palm Beach",
+      "leaning": "Liberal"
+    },
+    {
+      "name": "Pasco County Court",
+      "county": "Pasco",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Pinellas County Court",
+      "county": "Pinellas",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Polk County Court",
+      "county": "Polk",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Putnam County Court",
+      "county": "Putnam",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "St. Johns County Court",
+      "county": "St. Johns",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "St. Lucie County Court",
+      "county": "St. Lucie",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Santa Rosa County Court",
+      "county": "Santa Rosa",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Sarasota County Court",
+      "county": "Sarasota",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Seminole County Court",
+      "county": "Seminole",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Sumter County Court",
+      "county": "Sumter",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Suwannee County Court",
+      "county": "Suwannee",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Taylor County Court",
+      "county": "Taylor",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Union County Court",
+      "county": "Union",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Volusia County Court",
+      "county": "Volusia",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Wakulla County Court",
+      "county": "Wakulla",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Walton County Court",
+      "county": "Walton",
+      "leaning": "Conservative"
+    },
+    {
+      "name": "Washington County Court",
+      "county": "Washington",
+      "leaning": "Conservative"
+    }
+  ]
+}
