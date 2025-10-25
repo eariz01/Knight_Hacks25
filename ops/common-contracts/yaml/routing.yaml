@@ -1,0 +1,20 @@
+- match:
+    task_types: ["SCHEDULE_CALL","SCHEDULE_DEPO","SCHEDULE_MEDIATION",
+                 "CLIENT_UPDATE","CLIENT_QUESTION","MISSING_INFO_FROM_CLIENT"]
+  route: ["LegalAssistant"]
+
+- match:
+    task_types: ["REQUEST_RECORDS","REQUEST_BILLS","EVIDENCE_ORGANIZE","ATTACHMENT_SORT"]
+  route: ["CaseManager"]
+  co_route:
+    - when: missing_hipaa == true
+      agent: "LegalAssistant"
+
+- match:
+    task_types: ["LEGAL_RESEARCH","VERDICT_COMPS","DEMAND_SUPPORT"]
+  route: ["Paralegal"]
+
+- escalation:
+    when: deadline_within_days <= 7
+    pin: true
+    notify_roles: ["AttorneyOfRecord","Paralegal"]

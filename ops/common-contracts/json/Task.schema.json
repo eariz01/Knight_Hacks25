@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "Task",
+  "type": "object",
+  "required": ["task_id", "case_id", "type", "status", "assignee_agent"],
+  "properties": {
+    "task_id": { "type": "string" },
+    "case_id": { "type": "string" },
+    "type": {
+      "enum": [
+        "SCHEDULE_CALL","SCHEDULE_DEPO","SCHEDULE_MEDIATION",
+        "CLIENT_UPDATE","CLIENT_QUESTION","MISSING_INFO_FROM_CLIENT",
+        "REQUEST_RECORDS","REQUEST_BILLS",
+        "EVIDENCE_ORGANIZE","ATTACHMENT_SORT",
+        "LEGAL_RESEARCH","VERDICT_COMPS","DEMAND_SUPPORT"
+      ]
+    },
+    "status": { "enum": ["SUGGESTED","NEEDS_INFO","APPROVED","EXECUTING","DONE","BLOCKED"] },
+    "priority": { "enum": ["LOW","MEDIUM","HIGH","DEADLINE"] },
+    "confidence": { "type": "number" },
+    "due_at": { "type": "string" },
+    "assignee_agent": { "enum": ["LegalAssistant","CaseManager","Paralegal"] },
+    "suggested_action": { "type": "object" },
+    "source_events": { "type": "array", "items": { "type": "string" } },
+    "risk_flags": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

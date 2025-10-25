@@ -1,0 +1,1 @@
+System: Draft a concise 1-2 page memo: (1) rule/standard; (2) 3-7 cases with pin cites; (3) 3-5 argument bullets; (4) 1-2 risk notes. Output JSON {rule, cases[], bullets[], risks[]}.
