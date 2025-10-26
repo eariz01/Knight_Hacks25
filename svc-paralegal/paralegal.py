@@ -1,8 +1,11 @@
 import google.generativeai as genai
 import json
 
-##Reminder DELETE API KEY BEFORE COMMITTING TO GITHUB
+## ☠️ WARNING: DO NOT COMMIT THIS KEY TO GITHUB ☠️
+## Your API key is visible here.
+## Please remove it and use environment variables or a .env file.
 genai.configure(api_key="AIzaSyBWE1PlorpDVBUxfO9WFpchyB8U7leQweo")
+
 ##Made jurisdiction a parameter so we can change it as needed
 def run_legal_research(query, jurisdiction="Florida"):
     prompt = f"""
@@ -34,12 +37,15 @@ Instructions:
 }}
 """
     ##Can change model whenever we want to test different ones
-    model = genai.GenerativeModel("gemini-2.5-flash")
+    model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(prompt)
 
     #Making sure the output is valid JSON
     try:
-        data = json.loads(response.text)
+        # Clean the response to ensure it's valid JSON.
+        # AI models sometimes add backticks or "json" at the start.
+        clean_response = response.text.strip().replace("```json", "").replace("```", "")
+        data = json.loads(clean_response)
     except Exception:
         print("Not a valid JSON!")
         print(response.text)
@@ -61,9 +67,9 @@ Instructions:
 1. Check if the case is a real, published decision.
 2. Confirm citation format matches the court and year.
 3. Flag as:
-   - "valid" if exists.
-   - "suspicious" if format seems off or incomplete.
-   - "invalid" if likely fabricated.
+    - "valid" if exists.
+    - "suspicious" if format seems off or incomplete.
+    - "invalid" if likely fabricated.
 4. Output JSON only:
 {{
   "case_name": "{case_name}",
@@ -79,7 +85,9 @@ Instructions:
 
     #Making sure the output is valid JSON
     try:
-        check = json.loads(resp.text)
+        # Clean the response to ensure it's valid JSON
+        clean_response = resp.text.strip().replace("```json", "").replace("```", "")
+        check = json.loads(clean_response)
     except Exception:
         check = {"case_name": case_name, "citation": citation,
                  "status": "suspicious", "confidence": 0.3,
@@ -100,13 +108,63 @@ def run_pipeline(query):
         verified.append(case)
 
     research["relevant_cases"] = verified
+    
+    # Also verify federal cases if they exist
+    verified_federal = []
+    for case in research.get("federal_cases", []):
+        v = verify_case(case["case_name"], case["citation"])
+        case["verification"] = v
+        verified_federal.append(case)
+    
+    research["federal_cases"] = verified_federal
+    
     return research
 
 
 #Where we are pulling the query then calling the pipeline to get the cases and verify them
 if __name__ == "__main__":
 
-    ##Need to scan based on the Case Manager queries for "Headliners"
-    query = "pain and suffering damages in low-impact auto accidents"
-    result = run_legal_research(query)
-    print(json.dumps(result, indent=2))
+    json_file_path = "product.json"  # 
+    data = {}
+
+    #Reading the JSON file
+    try:
+        with open(json_file_path, "r") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: File not found at {json_file_path}")
+        print("Dude, create the file first with a 'main_summary' key.")
+        exit()  # Kills the script if the file isn't there
+    except json.JSONDecodeError:
+        print(f"Error: Could not decode JSON from {json_file_path}.")
+        exit()
+
+    #Grabbing the query from that "main_summary" key
+    query = data.get("main_summary")
+
+    if not query:
+        print(f"Error: 'main_summary' key not found or is empty in {json_file_path}.")
+    else:
+        print(f"Running research for query: {query}")
+        
+        # Running the full pipeline with that query
+        research_results = run_pipeline(query)
+
+        if research_results:
+            #Stuffs the new results back into the original 'data'
+            #This will overwrite the old keys or add the new ones
+            data["topic"] = research_results.get("topic", query)
+            data["jurisdiction"] = research_results.get("jurisdiction", "Florida")
+            data["relevant_cases"] = research_results.get("relevant_cases", [])
+            data["federal_cases"] = research_results.get("federal_cases", [])
+            data["notes"] = research_results.get("notes", "No notes generated.")
+
+            #Writes everything back to the *same* file
+            try:
+                with open(json_file_path, "w") as f:
+                    json.dump(data, f, indent=4)  # indent=4 just makes it look nice
+                print(f"Successfully updated {json_file_path} with new legal research.")
+            except Exception as e:
+                print(f"Error writing back to file: {e}")
+        else:
+            print("Failed to get research results. File not updated.")
