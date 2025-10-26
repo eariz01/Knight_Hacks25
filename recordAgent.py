@@ -456,8 +456,21 @@ def summarize_case_to_product(bucket: str, prefix: str) -> Optional[str]:
 # ------------------ CLI ------------------
 if __name__ == "__main__":
     # EDIT THESE to your case location in GCS:
+    with open("ticket.json", "r", encoding="utf-8") as f:
+        ticket = json.load(f)
+    PREFIX = ticket.get("case_number", "")
     BUCKET = "knighthacks-mm"
-    PREFIX = "File 1-12564888/"
+    CLIENT_NAME = ticket.get("client_name", "")
+    try:
+        with open("product.json", "r+", encoding="utf-8") as f:
+            product = json.load(f)
+            product["id"] = PREFIX
+            product["client_name"] = CLIENT_NAME
+            f.seek(0)
+            json.dump(product, f, indent=2)
+            f.truncate()
+    except Exception as e:
+        print(f"⚠️ Could not update product.json ID/client_name: {e}")
 
     out = summarize_case_to_product(BUCKET, PREFIX)
     if out:
