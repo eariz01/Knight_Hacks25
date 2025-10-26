@@ -1,33 +1,109 @@
 [
   {
-    "id": "",
-    "client_name": "",
-    "main_summary": "",
-    "key_findings": [],
-    "hipaa_necessity": "",
-    "medical_history_summary": "",
-    "political_reading": "",
-    "litigation_phase": "",
-    "status": "",
+    "id": "File 1-12564888/",
+    "client_name": "Eleanor Shellstrop",
+    "main_summary": "A traffic crash occurred on March 20, 2022, in Palatka, Putnam County, Florida. The injured party received medical treatment from various providers, with Personal Injury Protection (PIP) payments totaling at least $21,320.00. State Farm, the insurer, received a demand and responded with a settlement offer of $25,000 (policy limit) for one client and $3,000 for another client, along with a proposed Release.",
+    "key_findings": [
+      "A traffic crash occurred on March 20, 2022, in Palatka, Putnam County, Florida, involving a Ford F150.",
+      "The injured party incurred significant medical expenses, with PIP payments totaling $21,320.00 from HCA FL Putnam Hosp and additional payments to other providers.",
+      "State Farm offered a settlement of $25,000 (policy limit) for one client and $3,000 for another client in response to a demand."
+    ],
+    "hipaa_necessity": "The payment log details medical services and payments from various providers, indicating that HIPAA-compliant records collection is necessary to fully verify the medical history, treatments, and expenses related to the claim.",
+    "medical_history_summary": "The injured party received medical treatment starting March 20, 2022. Payments were made to HCA FL Putnam Hosp ($21,320.00), Sheridan Radiology Services ($835.00), Ortega Chiropractic Clinic (multiple payments totaling $3,890.00, plus several zero payments), and Paragon Emergency Services LLC ($1,654.00). These payments were for Personal Injury Protection - Medical claims.",
+    "political_reading": "Conservative",
+    "litigation_phase": "Settlement Discussion",
+    "status": "Settlement Offered",
     "venue": {
-      "court_type": "",
-      "county": ""
+      "court_type": "County Court",
+      "county": "PUTNAM"
     },
-    "relevant_cases": [],
+    "relevant_cases": [
+      {
+        "case_name": "Boston Old Colony Ins. Co. v. Gutierrez",
+        "citation": "386 So. 2d 783 (Fla. 1980)",
+        "court": "Florida Supreme Court",
+        "year": 1980,
+        "summary": "This seminal case established that an insurer has a duty to act in good faith and with due regard for its insured's interests, weighing the insured's interests as heavily as its own when considering settlement offers. A breach of this duty, determined by the 'totality of the circumstances,' can render the insurer liable for a judgment exceeding policy limits.",
+        "relevance_score": 0.98,
+        "verification": {
+          "case_name": "Boston Old Colony Ins. Co. v. Gutierrez",
+          "citation": "386 So. 2d 783 (Fla. 1980)",
+          "status": "valid",
+          "confidence": 1.0,
+          "notes": "Case is a real, published decision of the Florida Supreme Court from 1980, and the citation format is correct for the Southern Reporter, Second Series."
+        }
+      },
+      {
+        "case_name": "Harvey v. GEICO Gen. Ins. Co.",
+        "citation": "259 So. 3d 1 (Fla. 2018)",
+        "court": "Florida Supreme Court",
+        "year": 2018,
+        "summary": "Reaffirming the 'totality of the circumstances' test, this case clarified that an insurer's bad faith conduct does not require a formal 'demand' or settlement offer from the claimant to trigger the duty to settle. The insurer has an affirmative duty to act in good faith and attempt to settle claims when it knows, or reasonably should know, that settlement is possible.",
+        "relevance_score": 0.97,
+        "verification": {
+          "case_name": "Harvey v. GEICO Gen. Ins. Co.",
+          "citation": "259 So. 3d 1 (Fla. 2018)",
+          "status": "valid",
+          "confidence": 1.0,
+          "notes": "The case is a real, published decision by the Florida Supreme Court from 2018, and the citation format is correct and complete for the Southern Reporter, Third Series."
+        }
+      },
+      {
+        "case_name": "Powell v. Prudential Property and Cas. Ins. Co.",
+        "citation": "584 So. 2d 12 (Fla. 3d DCA 1991)",
+        "court": "Florida Third District Court of Appeal",
+        "year": 1991,
+        "summary": "This case found an insurer liable for bad faith for failing to properly investigate and evaluate a claim, and for conditioning a policy limits offer on an overly broad and unreasonable release. An insurer's attempt to use a settlement opportunity to extract an overly broad release can constitute bad faith.",
+        "relevance_score": 0.99,
+        "verification": {
+          "case_name": "Powell v. Prudential Property and Cas. Ins. Co.",
+          "citation": "584 So. 2d 12 (Fla. 3d DCA 1991)",
+          "status": "valid",
+          "confidence": 1.0,
+          "notes": "The case is a real, published decision by the Florida Third District Court of Appeal in 1991, reported in the Southern Reporter, Second Series. The citation format is accurate."
+        }
+      },
+      {
+        "case_name": "Perera v. U.S. Fidelity and Guaranty Co.",
+        "citation": "35 So. 3d 893 (Fla. 2010)",
+        "court": "Florida Supreme Court",
+        "year": 2010,
+        "summary": "This case reaffirmed the 'totality of the circumstances' approach in bad faith claims, emphasizing that an insurer must act in good faith by giving equal consideration to the interests of its insured as it does to its own interests. The insurer's conduct must be viewed in light of the facts and circumstances at the time the decision was made.",
+        "relevance_score": 0.95,
+        "verification": {
+          "case_name": "Perera v. U.S. Fidelity and Guaranty Co.",
+          "citation": "35 So. 3d 893 (Fla. 2010)",
+          "status": "valid",
+          "confidence": 1.0,
+          "notes": "The case is a real, published decision by the Florida Supreme Court from 2010, and the citation format is accurate for the Southern Reporter, Third Series."
+        }
+      }
+    ],
     "federal_cases": [],
-    "notes": "",
+    "notes": "The high PIP payments (exceeding $21,000) suggest significant injuries, which could make State Farm's low $3,000 settlement offer for one client, or even a $25,000 policy limit offer if it fails to reasonably resolve the claim due to release terms or prior conduct, subject to bad faith scrutiny under Florida law. The terms of the 'proposed Release' should be carefully reviewed for any overly broad or unreasonable provisions that could serve as further evidence of bad faith. Florida's bad faith jurisprudence emphasizes the insurer's affirmative duty to settle when it has the opportunity to do so, considering the insured's interests equally with its own.",
     "checklist": {
       "Discovery": {
-        "Medical record summary has been received and summarized": false,
+        "Medical record summary has been received and summarized": true,
         "Defendant responded to the discovery request": false,
         "Did we respond to defendants discovery request": false,
         "Scheduled Defendant Deposition": false,
         "Scheduled Plaintiff Deposition": false,
         "Do we need to bring in an expert": false
       },
-      "Settlement Discussion": {},
-      "Pre-Trial": {},
-      "Trial": {}
+      "Settlement Discussion": {
+        "Have depositions been transcripted and summarized": false,
+        "Has mediation been scheduled": false,
+        "Have we scheduled a talk with the client": false
+      },
+      "Pre-Trial": {
+        "Do we have certified copies of records": false,
+        "Client and experts are notified": false,
+        "Prepared trial notebook": false,
+        "Prepare jury charges, motions, and pretrial order": false
+      },
+      "Trial": {
+        "Payment received": false
+      }
     }
   }
 ]
