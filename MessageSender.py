@@ -15,7 +15,7 @@ def main():
     litigation_phase = str(data.get("litigation_phase", "")).strip()
     phase_norm = litigation_phase.casefold()
     client_name = data.get("client_name", "Client")
-    receiver_email = data.get("client_email", "thegeeemanfl@gmail.com")  # fallback if missing
+    receiver_email = data.get("client_email", "sample_email")  # fallback if missing
 
     # Determine event type based on original conditions
     event_type = None
