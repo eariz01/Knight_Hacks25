@@ -1,0 +1,44 @@
+/* Styles for the main dashboard layout */
+.dashboard-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+}
+
+/* Styles for each column */
+.litigation-column {
+  flex: 1;
+  min-width: 300px;
+  max-width: 24%; /* Adjusted for better fit */
+  /* Slightly transparent white with a frosted glass effect */
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(2px); 
+}
+
+.column-title {
+  background-color: var(--mm-blue);
+  color: var(--mm-white);
+  font-size: 1.25rem;
+  padding: 15px;
+  margin: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+}
+
+.column-content {
+  padding: 15px;
+  height: 75vh; /* Fixed height */
+  overflow-y: auto; /* Allows scrolling within the column */
+}
+
+.empty-column-message {
+  color: #6c757d;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
