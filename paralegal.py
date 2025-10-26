@@ -1,6 +1,6 @@
 import google.generativeai as genai
 import json
-genai.configure(api_key="AIzaSyBWE1PlorpDVBUxfO9WFpchyB8U7leQweo")
+genai.configure(api_key="OWN KEY")
 
 ##Made jurisdiction a parameter so we can change it as needed
 def run_legal_research(query, jurisdiction="Florida"):
