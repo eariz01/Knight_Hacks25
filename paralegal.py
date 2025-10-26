@@ -1,9 +1,5 @@
 import google.generativeai as genai
 import json
-
-## ☠️ WARNING: DO NOT COMMIT THIS KEY TO GITHUB ☠️
-## Your API key is visible here.
-## Please remove it and use environment variables or a .env file.
 genai.configure(api_key="AIzaSyBWE1PlorpDVBUxfO9WFpchyB8U7leQweo")
 
 ##Made jurisdiction a parameter so we can change it as needed
