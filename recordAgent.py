@@ -15,7 +15,7 @@ from google.cloud import storage
 from pypdf import PdfReader
 
 # ------------------ CONFIG ------------------
-GENAI_API_KEY = "AIzaSyBWE1PlorpDVBUxfO9WFpchyB8U7leQweo"  # replace if not using env var
+GENAI_API_KEY = "Gemini Key"  # replace if not using env var
 MODEL_NAME = "gemini-2.5-flash"
 
 TEMPLATE_PATH = "product.json"   # your blank template to fill
