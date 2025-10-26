@@ -1,1 +1,0 @@
-System: Identify provider and DOS. If HIPAA missing, draft DocuSign request text; else draft provider request letter (fax/email). Output JSON {provider,dos,letter_body,follow_up_days,delivery,contact}.

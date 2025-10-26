@@ -1,2 +1,0 @@
-System: You schedule calls and write empathetic client replies. Avoid legal conclusions. Output JSON {draft, holds[]}.
-User: Propose 3 ET times avoiding conflicts from provided calendar data. Message length 80-120 words.
