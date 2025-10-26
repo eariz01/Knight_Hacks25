@@ -1,5 +1,244 @@
 [
   {
+    "id": "case-001",
+    "client_name": "Alice Wonderland",
+    "main_summary": "Auto Accident (T-Bone) involving commercial truck, resulting in spinal injury.",
+    "key_findings": [
+      "Defendant's driver was cited for running a red light.",
+      "Plaintiff has two prior surgeries in the same spinal region.",
+      "Clear video footage of the incident from a nearby storefront."
+    ],
+    "hipaa_necessity": "HIPAA compliance is critical. We must proceed with requesting all medical records for the past 10 years to analyze pre-existing conditions.",
+    "medical_history_summary": "Plaintiff has a documented history of lumbar spondylosis. The key challenge will be attributing the new acute herniation to the accident vs. the pre-existing condition.",
+    "political_reading": "Conservative",
+    "litigation_phase": "Discovery",
+    "status": "Pending",
+    "venue": {
+      "court_type": "District Court",
+      "county": "Orange County"
+    },
+    "relevant_cases": [
+      {
+        "case_name": "Smith v. Transport Co.",
+        "citation": "25 F.Supp.3d 100 (S.D. Fla. 2014)",
+        "court": "Southern District of Florida",
+        "summary": "Similar spinal injury case; established precedent for punitive damages in commercial vehicle accidents.",
+        "relevance_score": 0.95
+      }
+    ],
+    "federal_cases": [],
+    "notes": "No specific federal cases directly on point for T-bone accidents, but need to check interstate commerce implications.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": false,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": false,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": true
+      },
+      "Settlement Discussion": {},
+      "Pre-Trial": {},
+      "Trial": {}
+    }
+  },
+  {
+    "id": "case-002",
+    "client_name": "Bob Builder",
+    "main_summary": "Slip and fall at a national grocery chain; wet floor with no signage.",
+    "key_findings": [
+      "Store's internal incident report was filed 2 hours after the event.",
+      "No witness testimony available other than the plaintiff.",
+      "Request for store's surveillance footage has been filed."
+    ],
+    "hipaa_necessity": "HIPAA compliance is required. Need to request initial ER visit and orthopedic follow-ups.",
+    "medical_history_summary": "No relevant pre-existing conditions. Plaintiff was treated for a fractured patella.",
+    "political_reading": "Liberal",
+    "litigation_phase": "Discovery",
+    "status": "Approved",
+    "venue": {
+      "court_type": "Superior Court",
+      "county": "Cook County"
+    },
+    "relevant_cases": [
+      {
+        "case_name": "Jones v. Retail Corp.",
+        "citation": "310 Ill. App. 3d 765 (2000)",
+        "court": "Illinois Appellate Court",
+        "summary": "Established 'constructive notice' for wet floor cases in retail, where staff should have known.",
+        "relevance_score": 0.88
+      }
+    ],
+    "federal_cases": [],
+    "notes": "No federal cases relevant, purely state premises liability.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": true,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": true,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": false
+      },
+      "Settlement Discussion": {},
+      "Pre-Trial": {},
+      "Trial": {}
+    }
+  },
+  {
+    "id": "case-003",
+    "client_name": "Charlie Chaplin",
+    "main_summary": "Medical Malpractice: Misdiagnosis of a stroke in the ER.",
+    "key_findings": [
+      "Plaintiff presented with classic stroke symptoms but was discharged with a migraine diagnosis.",
+      "Plaintiff returned 12 hours later with permanent neurological damage.",
+      "Expert medical witness has been retained and provided a favorable preliminary opinion."
+    ],
+    "hipaa_necessity": "HIPAA compliance is paramount. All records from the initial and subsequent hospital visits are required.",
+    "medical_history_summary": "Plaintiff has a history of hypertension, which is a risk factor but does not excuse the misdiagnosis.",
+    "political_reading": "Liberal",
+    "litigation_phase": "Pre-Trial",
+    "status": "Pending",
+    "venue": {
+      "court_type": "Circuit Court",
+      "county": "Bronx County"
+    },
+    "relevant_cases": [
+      {
+        "case_name": "Doe v. City Hospital",
+        "citation": "98 N.Y.2d 123 (2002)",
+        "court": "New York Court of Appeals",
+        "summary": "Precedent for standard of care in ER stroke diagnosis.",
+        "relevance_score": 0.92
+      }
+    ],
+    "federal_cases": [],
+    "notes": "No federal cases unless an issue of federal funding for the hospital arises.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": true,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": true,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": true
+      },
+      "Settlement Discussion": {
+        "Have depositions been transcripted and summarized": true,
+        "Has mediation been scheduled": true,
+        "Have we scheduled a talk with the client": false
+      },
+      "Pre-Trial": {
+        "Do we have certified copies of records": false,
+        "Client and experts are notified": false,
+        "Prepared trial note book": false,
+        "Prepare jury charges, motions, and pretrial order": false
+      },
+      "Trial": {}
+    }
+  },
+  {
+    "id": "case-004",
+    "client_name": "Diana Prince",
+    "main_summary": "Wrongful death claim; nursing home negligence.",
+    "key_findings": [
+      "Decedent's records show severe dehydration and untreated bedsores.",
+      "Key witness (a former employee) is willing to testify about understaffing.",
+      "Defendant's initial settlement offer is $50,000."
+    ],
+    "hipaa_necessity": "HIPAA compliance is required for the decedent's records.",
+    "medical_history_summary": "Decedent had multiple co-morbidities, but cause of death is directly linked to septicemia from untreated wounds.",
+    "political_reading": "Conservative",
+    "litigation_phase": "Settlement Discussion",
+    "status": "Not Approved",
+    "venue": {
+      "court_type": "Probate Court",
+      "county": "Duval County"
+    },
+    "relevant_cases": [
+      {
+        "case_name": "Estate of Baker v. Golden Years",
+        "citation": "150 So. 3d 123 (Fla. 2014)",
+        "court": "Florida Supreme Court",
+        "summary": "Sets guidelines for gross negligence in nursing home cases in Florida.",
+        "relevance_score": 0.9
+      }
+    ],
+    "federal_cases": [],
+    "notes": "Potentially a federal aspect if Medicare/Medicaid fraud is implicated.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": true,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": true,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": true
+      },
+      "Settlement Discussion": {
+        "Have depositions been transcripted and summarized": true,
+        "Has mediation been scheduled": false,
+        "Have we scheduled a talk with the client": false
+      },
+      "Pre-Trial": {},
+      "Trial": {}
+    }
+  },
+  {
+    "id": "case-005",
+    "client_name": "Edward Nigma",
+    "main_summary": "Premises Liability: Faulty railing on an apartment staircase.",
+    "key_findings": [
+      "Building maintenance records show three prior complaints about the same railing.",
+      "Defendant (landlord) is claiming plaintiff was intoxicated.",
+      "Case is scheduled for jury selection on Dec 1st."
+    ],
+    "hipaa_necessity": "HIPAA compliance is required. We must get the toxicology report from the ER visit to proactively address the intoxication defense.",
+    "medical_history_summary": "Plaintiff sustained a compound fracture of the tibia.",
+    "political_reading": "Moderate",
+    "litigation_phase": "Trial",
+    "status": "Not Started",
+    "venue": {
+      "court_type": "Civil Court",
+      "county": "Miami-Dade County"
+    },
+    "relevant_cases": [
+      {
+        "case_name": "Clark v. Apartment Mgmt.",
+        "citation": "285 So. 3d 456 (Fla. Dist. Ct. App. 2019)",
+        "court": "Florida District Court of Appeal",
+        "summary": "Discusses landlord liability for known defects and comparative negligence.",
+        "relevance_score": 0.85
+      }
+    ],
+    "federal_cases": [],
+    "notes": "No federal implications.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": true,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": true,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": true
+      },
+      "Settlement Discussion": {
+        "Have depositions been transcripted and summarized": true,
+        "Has mediation been scheduled": true,
+        "Have we scheduled a talk with the client": true
+      },
+      "Pre-Trial": {
+        "Do we have certified copies of records": true,
+        "Client and experts are notified": true,
+        "Prepared trial note book": true,
+        "Prepare jury charges, motions, and pretrial order": true
+      },
+      "Trial": {
+        "Payment Received": false
+      }
+    }
+  },
+  {
     "id": "File 1-12564888/",
     "client_name": "Eleanor Shellstrop",
     "main_summary": "A traffic crash occurred on March 20, 2022, in Palatka, Putnam County, Florida. The injured party received medical treatment from various providers, with Personal Injury Protection (PIP) payments totaling at least $21,320.00. State Farm, the insurer, received a demand and responded with a settlement offer of $25,000 (policy limit) for one client and $3,000 for another client, along with a proposed Release.",
@@ -19,68 +258,83 @@
     },
     "relevant_cases": [
       {
+        "case_name": "Florida Statute 627.736 (Personal Injury Protection)",
+        "citation": "Fla. Stat. \u00a7 627.736",
+        "court": "Florida Legislature",
+        "year": "Current",
+        "summary": "This statute mandates PIP coverage in Florida, outlining the 80% coverage for medical expenses and 60% for lost wages, up to a $10,000 limit, or $2,500 if no emergency medical condition is determined. The substantial PIP payments in this case strongly indicate significant medical treatment and likely an emergency medical condition, underscoring the severity of the plaintiff's injuries.",
+        "relevance_score": 1.0,
+        "verification": {
+          "case_name": "Florida Statute 627.736 (Personal Injury Protection)",
+          "citation": "Fla. Stat. \u00a7 627.736",
+          "status": "valid",
+          "confidence": 1.0,
+          "notes": "This reference is to a Florida Statute, not a judicial case decision. Fla. Stat. \u00a7 627.736 is a real, existing, and correctly cited section of Florida law pertaining to Personal Injury Protection (PIP) benefits."
+        }
+      },
+      {
+        "case_name": "Florida Statute 624.155 (Civil Remedy for Insurer Violations)",
+        "citation": "Fla. Stat. \u00a7 624.155",
+        "court": "Florida Legislature",
+        "year": "Current",
+        "summary": "This statute provides a statutory cause of action for first-party claimants against insurers for bad faith, allowing for recovery of damages and attorney's fees if an insurer does not attempt to settle claims in good faith when it could and should have done so. The insurer's offer, especially if it does not adequately reflect the damages in light of significant medical bills and potential exposure to an excess judgment, could be evaluated under this statute.",
+        "relevance_score": 0.95,
+        "verification": {
+          "case_name": "Florida Statute 624.155 (Civil Remedy for Insurer Violations)",
+          "citation": "Fla. Stat. \u00a7 624.155",
+          "status": "valid",
+          "confidence": 1.0,
+          "notes": "This citation refers to a specific section of the Florida Statutes, not a judicial case decision. Florida Statute \u00a7 624.155, titled 'Civil remedy,' is a real, published statute concerning civil remedies for insurer violations. The citation format 'Fla. Stat. \u00a7 624.155' is correct and standard for statutory references in Florida."
+        }
+      },
+      {
         "case_name": "Boston Old Colony Ins. Co. v. Gutierrez",
         "citation": "386 So. 2d 783 (Fla. 1980)",
-        "court": "Florida Supreme Court",
+        "court": "Supreme Court of Florida",
         "year": 1980,
-        "summary": "This seminal case established that an insurer has a duty to act in good faith and with due regard for its insured's interests, weighing the insured's interests as heavily as its own when considering settlement offers. A breach of this duty, determined by the 'totality of the circumstances,' can render the insurer liable for a judgment exceeding policy limits.",
+        "summary": "This seminal case establishes an insurer's good faith duty to its insured when handling claims within or exceeding policy limits, requiring the insurer to act in the best interests of its insured to avoid an excess judgment. State Farm's policy limit offer and settlement for multiple claimants, juxtaposed with the substantial medical expenses, raises questions about whether they are fulfilling their duty to protect their insured from potential excess liability, especially if the policy limits are insufficient.",
         "relevance_score": 0.98,
         "verification": {
           "case_name": "Boston Old Colony Ins. Co. v. Gutierrez",
           "citation": "386 So. 2d 783 (Fla. 1980)",
           "status": "valid",
           "confidence": 1.0,
-          "notes": "Case is a real, published decision of the Florida Supreme Court from 1980, and the citation format is correct for the Southern Reporter, Second Series."
+          "notes": "Case exists as cited, decided by the Florida Supreme Court in 1980 and published in Southern Reporter, Second Series."
         }
       },
       {
-        "case_name": "Harvey v. GEICO Gen. Ins. Co.",
-        "citation": "259 So. 3d 1 (Fla. 2018)",
-        "court": "Florida Supreme Court",
-        "year": 2018,
-        "summary": "Reaffirming the 'totality of the circumstances' test, this case clarified that an insurer's bad faith conduct does not require a formal 'demand' or settlement offer from the claimant to trigger the duty to settle. The insurer has an affirmative duty to act in good faith and attempt to settle claims when it knows, or reasonably should know, that settlement is possible.",
-        "relevance_score": 0.97,
+        "case_name": "Campbell v. Gov't Employees Ins. Co. (GEICO)",
+        "citation": "306 So. 3d 1023 (Fla. 5th DCA 2020)",
+        "court": "Florida Fifth District Court of Appeal",
+        "year": 2020,
+        "summary": "This recent bad faith case reinforces that an insurer's duty of good faith includes an obligation to timely and adequately investigate claims and to tender reasonable offers, especially where liability is clear and damages are significant. Even with a policy limit offer, if it is untimely, inadequate for the total damages, or creates exposure for the insured due to multiple claimants, it can still form the basis of a bad faith claim.",
+        "relevance_score": 0.9,
         "verification": {
-          "case_name": "Harvey v. GEICO Gen. Ins. Co.",
-          "citation": "259 So. 3d 1 (Fla. 2018)",
+          "case_name": "Campbell v. Gov't Employees Ins. Co. (GEICO)",
+          "citation": "306 So. 3d 1023 (Fla. 5th DCA 2020)",
           "status": "valid",
           "confidence": 1.0,
-          "notes": "The case is a real, published decision by the Florida Supreme Court from 2018, and the citation format is correct and complete for the Southern Reporter, Third Series."
+          "notes": "Case found in Southern Reporter, Third Series. Name and citation match the published decision from the Florida Fifth District Court of Appeal in 2020."
         }
       },
       {
-        "case_name": "Powell v. Prudential Property and Cas. Ins. Co.",
-        "citation": "584 So. 2d 12 (Fla. 3d DCA 1991)",
-        "court": "Florida Third District Court of Appeal",
-        "year": 1991,
-        "summary": "This case found an insurer liable for bad faith for failing to properly investigate and evaluate a claim, and for conditioning a policy limits offer on an overly broad and unreasonable release. An insurer's attempt to use a settlement opportunity to extract an overly broad release can constitute bad faith.",
-        "relevance_score": 0.99,
+        "case_name": "Florida Statute 627.727 (Uninsured Motorist Coverage)",
+        "citation": "Fla. Stat. \u00a7 627.727",
+        "court": "Florida Legislature",
+        "year": "Current",
+        "summary": "This statute governs uninsured and underinsured motorist (UM/UIM) coverage in Florida, which becomes critical when an at-fault driver's liability policy limits (like the $25,000 offered here) are insufficient to cover the injured party's damages. Given the significant medical treatment and PIP payments, the plaintiff's UM/UIM policy will be a crucial source of potential recovery for damages exceeding the tortfeasor's liability limits.",
+        "relevance_score": 0.85,
         "verification": {
-          "case_name": "Powell v. Prudential Property and Cas. Ins. Co.",
-          "citation": "584 So. 2d 12 (Fla. 3d DCA 1991)",
+          "case_name": "Florida Statute 627.727 (Uninsured Motorist Coverage)",
+          "citation": "Fla. Stat. \u00a7 627.727",
           "status": "valid",
           "confidence": 1.0,
-          "notes": "The case is a real, published decision by the Florida Third District Court of Appeal in 1991, reported in the Southern Reporter, Second Series. The citation format is accurate."
-        }
-      },
-      {
-        "case_name": "Perera v. U.S. Fidelity and Guaranty Co.",
-        "citation": "35 So. 3d 893 (Fla. 2010)",
-        "court": "Florida Supreme Court",
-        "year": 2010,
-        "summary": "This case reaffirmed the 'totality of the circumstances' approach in bad faith claims, emphasizing that an insurer must act in good faith by giving equal consideration to the interests of its insured as it does to its own interests. The insurer's conduct must be viewed in light of the facts and circumstances at the time the decision was made.",
-        "relevance_score": 0.95,
-        "verification": {
-          "case_name": "Perera v. U.S. Fidelity and Guaranty Co.",
-          "citation": "35 So. 3d 893 (Fla. 2010)",
-          "status": "valid",
-          "confidence": 1.0,
-          "notes": "The case is a real, published decision by the Florida Supreme Court from 2010, and the citation format is accurate for the Southern Reporter, Third Series."
+          "notes": "This citation refers to Florida Statute \u00a7 627.727, which pertains to Uninsured Motorist Coverage. It is a valid and existing section of the Florida Statutes, not a judicial case-law decision. The citation format is correct for a Florida Statute."
         }
       }
     ],
     "federal_cases": [],
-    "notes": "The high PIP payments (exceeding $21,000) suggest significant injuries, which could make State Farm's low $3,000 settlement offer for one client, or even a $25,000 policy limit offer if it fails to reasonably resolve the claim due to release terms or prior conduct, subject to bad faith scrutiny under Florida law. The terms of the 'proposed Release' should be carefully reviewed for any overly broad or unreasonable provisions that could serve as further evidence of bad faith. Florida's bad faith jurisprudence emphasizes the insurer's affirmative duty to settle when it has the opportunity to do so, considering the insured's interests equally with its own.",
+    "notes": "The substantial PIP payments ($21,320.00) are particularly noteworthy. While standard Florida PIP limits are $10,000, this figure strongly suggests either a very high-limit PIP policy, or (more likely) that it represents the total medical bills incurred by the client, with PIP covering its maximum statutory portion, indicating severe injuries and significant damages beyond the policy limit offer. This reinforces the potential for an excess judgment and strengthens any bad faith claim. The offer for two clients ($25,000 and $3,000) against a single policy limit further complicates the insurer's good faith duty under *Boston Old Colony* and *Campbell*.",
     "checklist": {
       "Discovery": {
         "Medical record summary has been received and summarized": true,
