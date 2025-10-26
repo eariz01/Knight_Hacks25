@@ -1,0 +1,226 @@
+[
+  {
+    "id": "case-001",
+    "client_name": "Alice Wonderland",
+    "main_summary": "Auto Accident (T-Bone) involving commercial truck, resulting in spinal injury.",
+    "key_findings": [
+      "Defendant's driver was cited for running a red light.",
+      "Plaintiff has two prior surgeries in the same spinal region.",
+      "Clear video footage of the incident from a nearby storefront."
+    ],
+    "hipaa_necessity": "HIPAA compliance is critical. We must proceed with requesting all medical records for the past 10 years to analyze pre-existing conditions.",
+    "medical_history_summary": "Plaintiff has a documented history of lumbar spondylosis. The key challenge will be attributing the new acute herniation to the accident vs. the pre-existing condition.",
+    "political_reading": "Conservative",
+    "litigation_phase": "Discovery",
+    "status": "Pending",
+    "venue": { "court_type": "District Court", "county": "Orange County" },
+    "relevant_cases": [
+      {
+        "case_name": "Smith v. Transport Co.",
+        "citation": "25 F.Supp.3d 100 (S.D. Fla. 2014)",
+        "court": "Southern District of Florida",
+        "summary": "Similar spinal injury case; established precedent for punitive damages in commercial vehicle accidents.",
+        "relevance_score": 0.95
+      }
+    ],
+    "federal_cases": [],
+    "notes": "No specific federal cases directly on point for T-bone accidents, but need to check interstate commerce implications.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": false,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": false,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": true
+      },
+      "Settlement Discussion": {},
+      "Pre-Trial": {},
+      "Trial": {}
+    }
+  },
+  {
+    "id": "case-002",
+    "client_name": "Bob Builder",
+    "main_summary": "Slip and fall at a national grocery chain; wet floor with no signage.",
+    "key_findings": [
+      "Store's internal incident report was filed 2 hours after the event.",
+      "No witness testimony available other than the plaintiff.",
+      "Request for store's surveillance footage has been filed."
+    ],
+    "hipaa_necessity": "HIPAA compliance is required. Need to request initial ER visit and orthopedic follow-ups.",
+    "medical_history_summary": "No relevant pre-existing conditions. Plaintiff was treated for a fractured patella.",
+    "political_reading": "Liberal",
+    "litigation_phase": "Discovery",
+    "status": "Pending",
+    "venue": { "court_type": "Superior Court", "county": "Cook County" },
+    "relevant_cases": [
+      {
+        "case_name": "Jones v. Retail Corp.",
+        "citation": "310 Ill. App. 3d 765 (2000)",
+        "court": "Illinois Appellate Court",
+        "summary": "Established 'constructive notice' for wet floor cases in retail, where staff should have known.",
+        "relevance_score": 0.88
+      }
+    ],
+    "federal_cases": [],
+    "notes": "No federal cases relevant, purely state premises liability.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": true,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": true,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": false
+      },
+      "Settlement Discussion": {},
+      "Pre-Trial": {},
+      "Trial": {}
+    }
+  },
+  {
+    "id": "case-003",
+    "client_name": "Charlie Chaplin",
+    "main_summary": "Medical Malpractice: Misdiagnosis of a stroke in the ER.",
+    "key_findings": [
+      "Plaintiff presented with classic stroke symptoms but was discharged with a migraine diagnosis.",
+      "Plaintiff returned 12 hours later with permanent neurological damage.",
+      "Expert medical witness has been retained and provided a favorable preliminary opinion."
+    ],
+    "hipaa_necessity": "HIPAA compliance is paramount. All records from the initial and subsequent hospital visits are required.",
+    "medical_history_summary": "Plaintiff has a history of hypertension, which is a risk factor but does not excuse the misdiagnosis.",
+    "political_reading": "Liberal",
+    "litigation_phase": "Pre-Trial",
+    "status": "Pending",
+    "venue": { "court_type": "Circuit Court", "county": "Bronx County" },
+    "relevant_cases": [
+      {
+        "case_name": "Doe v. City Hospital",
+        "citation": "98 N.Y.2d 123 (2002)",
+        "court": "New York Court of Appeals",
+        "summary": "Precedent for standard of care in ER stroke diagnosis.",
+        "relevance_score": 0.92
+      }
+    ],
+    "federal_cases": [],
+    "notes": "No federal cases unless an issue of federal funding for the hospital arises.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": true,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": true,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": true
+      },
+      "Settlement Discussion": {
+        "Have depositions been transcripted and summarized": true,
+        "Has mediation been scheduled": true,
+        "Have we scheduled a talk with the client": false
+      },
+      "Pre-Trial": {
+        "Do we have certified copies of records": false,
+        "Client and experts are notified": false,
+        "Prepared trial note book": false,
+        "Prepare jury charges, motions, and pretrial order": false
+      },
+      "Trial": {}
+    }
+  },
+  {
+    "id": "case-004",
+    "client_name": "Diana Prince",
+    "main_summary": "Wrongful death claim; nursing home negligence.",
+    "key_findings": [
+      "Decedent's records show severe dehydration and untreated bedsores.",
+      "Key witness (a former employee) is willing to testify about understaffing.",
+      "Defendant's initial settlement offer is $50,000."
+    ],
+    "hipaa_necessity": "HIPAA compliance is required for the decedent's records.",
+    "medical_history_summary": "Decedent had multiple co-morbidities, but cause of death is directly linked to septicemia from untreated wounds.",
+    "political_reading": "Conservative",
+    "litigation_phase": "Settlement Discussion",
+    "status": "Pending",
+    "venue": { "court_type": "Probate Court", "county": "Duval County" },
+    "relevant_cases": [
+      {
+        "case_name": "Estate of Baker v. Golden Years",
+        "citation": "150 So. 3d 123 (Fla. 2014)",
+        "court": "Florida Supreme Court",
+        "summary": "Sets guidelines for gross negligence in nursing home cases in Florida.",
+        "relevance_score": 0.90
+      }
+    ],
+    "federal_cases": [],
+    "notes": "Potentially a federal aspect if Medicare/Medicaid fraud is implicated.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": true,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": true,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": true
+      },
+      "Settlement Discussion": {
+        "Have depositions been transcripted and summarized": true,
+        "Has mediation been scheduled": false,
+        "Have we scheduled a talk with the client": false
+      },
+      "Pre-Trial": {},
+      "Trial": {}
+    }
+  },
+  {
+    "id": "case-005",
+    "client_name": "Edward Nigma",
+    "main_summary": "Premises Liability: Faulty railing on an apartment staircase.",
+    "key_findings": [
+      "Building maintenance records show three prior complaints about the same railing.",
+      "Defendant (landlord) is claiming plaintiff was intoxicated.",
+      "Case is scheduled for jury selection on Dec 1st."
+    ],
+    "hipaa_necessity": "HIPAA compliance is required. We must get the toxicology report from the ER visit to proactively address the intoxication defense.",
+    "medical_history_summary": "Plaintiff sustained a compound fracture of the tibia.",
+    "political_reading": "Moderate",
+    "litigation_phase": "Trial",
+    "status": "Pending",
+    "venue": { "court_type": "Civil Court", "county": "Miami-Dade County" },
+    "relevant_cases": [
+      {
+        "case_name": "Clark v. Apartment Mgmt.",
+        "citation": "285 So. 3d 456 (Fla. Dist. Ct. App. 2019)",
+        "court": "Florida District Court of Appeal",
+        "summary": "Discusses landlord liability for known defects and comparative negligence.",
+        "relevance_score": 0.85
+      }
+    ],
+    "federal_cases": [],
+    "notes": "No federal implications.",
+    "checklist": {
+      "Discovery": {
+        "Medical record summary has been received and summarized": true,
+        "Defendant responded to the discovery request": true,
+        "Did we respond to defendants discovery request": true,
+        "Scheduled Defendant Deposition": true,
+        "Scheduled Plaintiff Deposition": true,
+        "Do we need to bring in an expert": true
+      },
+      "Settlement Discussion": {
+        "Have depositions been transcripted and summarized": true,
+        "Has mediation been scheduled": true,
+        "Have we scheduled a talk with the client": true
+      },
+      "Pre-Trial": {
+        "Do we have certified copies of records": true,
+        "Client and experts are notified": true,
+        "Prepared trial note book": true,
+        "Prepare jury charges, motions, and pretrial order": true
+      },
+      "Trial": {
+        "Payment Received": false
+      }
+    }
+  }
+]

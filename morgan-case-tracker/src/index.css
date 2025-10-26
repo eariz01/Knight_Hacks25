@@ -1,0 +1,43 @@
+/* Global Styling & Morgan & Morgan Brand Palette */
+
+:root {
+  --mm-blue: #13294E;
+  /* Softer, less intense yellow */
+  --mm-yellow: #FAEFA4; 
+  --mm-black: #000000;
+  --mm-white: #FFFFFF;
+  --mm-light-grey: #f4f4f4; /* Used for hover effects */
+
+  /* Functional Status Colors */
+  --status-green: #28a745;
+  --status-red: #dc3545;
+  --status-grey: #6c757d;
+  --status-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Gradient Background: Yellow (top-left) to White (middle) to Blue (bottom-right) */
+  background: linear-gradient(
+    to bottom right, 
+    var(--mm-yellow) 0%, 
+    var(--mm-white) 50%, 
+    var(--mm-blue) 100%
+  );
+  min-height: 100vh; /* Ensure the gradient covers the full viewport height */
+}
+
+/* Class for the main page title */
+.app-title { 
+  margin: 0 40px 20px 40px; 
+  padding-top: 30px; 
+  font-size: 2.8rem;
+  color: var(--mm-blue); 
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Subtle shadow for readability */
+}
