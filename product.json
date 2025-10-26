@@ -1,0 +1,31 @@
+{
+  "id": "",
+  "client_name": "",
+  "main_summary": "",
+  "key_findings": [],
+  "hipaa_necessity": "",
+  "medical_history_summary": "",
+  "political_reading": "",
+  "litigation_phase": "",
+  "status": "",
+  "venue": {
+    "court_type": "",
+    "county": ""
+  },
+  "relevant_cases": [],
+  "federal_cases": [],
+  "notes": "",
+  "checklist": {
+    "Discovery": {
+      "Medical record summary has been received and summarized": false,
+      "Defendant responded to the discovery request": false,
+      "Did we respond to defendants discovery request": false,
+      "Scheduled Defendant Deposition": false,
+      "Scheduled Plaintiff Deposition": false,
+      "Do we need to bring in an expert": false
+    },
+    "Settlement Discussion": {},
+    "Pre-Trial": {},
+    "Trial": {}
+  }
+}
