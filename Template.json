@@ -24,8 +24,19 @@
       "Scheduled Plaintiff Deposition": false,
       "Do we need to bring in an expert": false
     },
-    "Settlement Discussion": {},
-    "Pre-Trial": {},
-    "Trial": {}
+    "Settlement Discussion": {
+        "Have depositions been transcripted and summarized": false,
+        "Has mediation been scheduled": false,
+        "Have we scheduled a talk with the client": false
+      },
+      "Pre-Trial": {
+        "Do we have certified copies of records": false,
+        "Client and experts are notified": false,
+        "Prepared trial notebook": false,
+        "Prepare jury charges, motions, and pretrial order": false
+      },
+      "Trial": {
+        "Payment received": false
+      }
   }
 }
