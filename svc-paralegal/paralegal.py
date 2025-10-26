@@ -34,7 +34,7 @@ Instructions:
 }}
 """
     ##Can change model whenever we want to test different ones
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     response = model.generate_content(prompt)
 
     #Making sure the output is valid JSON
