@@ -105,6 +105,7 @@ def run_donna():
     run_script("MessageSender.py")
     copy_product_to_master()
     reset_product()
+    shutil.move(r"master.json", os.path.join(r"morgan-case-tracker\public", "master.json"))
     print("🎯 DONNA COMPLETE\n")
 
 if __name__ == "__main__":
